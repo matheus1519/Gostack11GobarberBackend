@@ -5,7 +5,7 @@
   "username": "postgres",
   "password": "root",
   "database": "gostack_database",
-  "entities": ["./src/models/*.ts"],
-  "migrations": ["./src/database/migrations/*.ts"],
-  "cli": { "migrationsDir": "./src/database/migrations" }
+  "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
+  "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
+  "cli": { "migrationsDir": "./src/shared/infra/typeorm/migrations" }
 }
